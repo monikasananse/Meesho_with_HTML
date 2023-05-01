@@ -310,5 +310,48 @@ h1:after{
     background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp);
     margin-top: 60px;
 }
+#meesho_supplier{
+    width:70%;
+    height:350px;
+    background-image: url(https://images.meesho.com/images/pow/supplyBannerDesktop_1106.webp);
+    margin: auto;
+    margin-top: 60px;
+}
+h4{
+    color: rgb(85, 133, 248);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier bold";
+    margin: 5% 10% 0px 60%;
+    padding: 0px;
+}
+#seller>h2{
+    color: rgb(244, 51, 151);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52px;
+    font-family: "Mier bold";
+    margin: 1% 0 0 40%;
+    padding: 0px;
+}
+#seller>div{
+    height:60px;
+    width:40%;
+    /* border:1px solid red; */
+    margin-top: 50px;
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#seller>div>img{
+    height:50px;
+    width:40%;
+    /* padding:1rem; */
+    border-radius: 5px;
+}
 
 

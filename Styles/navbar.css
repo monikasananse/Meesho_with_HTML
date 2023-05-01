@@ -273,5 +273,42 @@ h1:after{
     display: flex;
     justify-content: space-around;
 }
+#New_styles{
+    height:550px;
+    width:70%;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:auto;
+    background-image: url(https://images.meesho.com/images/marketing/1678691892265_1200.webp);
+    margin-top: 60px;
+}
+#New_styles>div:first-child{
+    height:350px;
+    width:700px;
+    /* border:1px solid red; */
+    margin-left: 35%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#New_styles>div:last-child{
+    height:60px;
+    width:700px;
+    /* border:1px solid red; */
+    margin-left: 35%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+#seller{
+    height:550px;
+    width:70%;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:auto;
+    background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp);
+    margin-top: 60px;
+}
 
 

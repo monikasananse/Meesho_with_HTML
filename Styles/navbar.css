@@ -358,7 +358,7 @@ h4{
     font-size: 32px;
     line-height: 40px;
     color:rgb(255 255 255);
-    margin: 50px 0 0 10%;
+    margin: 10% 10% 10% 10%;
     
 }
 #meesho_supplier>p{
@@ -366,9 +366,64 @@ h4{
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
-    margin-top: 16px;
+    margin-top: 26px;
     margin-left: 10%;
     font-family: "Mier bold";
+}
+#meesho_supplier>div{
+    height:60px;
+    width:60%;
+    /* border:1px solid red; */
+    margin:50px 0 0 110px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.temp>svg{
+    padding:1rem;
+}
+.temp{
+    display: flex;
+    color:#e3e3e3;
+    font-size:20px;
+    font-weight: bold;
+}
+#meesho_supplier>div:last-child{
+    height:70px;
+    width:15%;
+    /* border:1px solid red; */
+    background-color:rgb(255 255 255);
+    color:#f43397;
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#meesho_supplier>div:last-child>p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+
+}
+#products{
+    height:100%;
+    width:100%;
+    border:1px solid red;
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+
+
+#left{
+    height:700px;
+    width:25%;
+    border:1px solid black;
+}
+#right{
+    height:auto;
+    width:70%;
+    border:1px solid red;
 }
 
 

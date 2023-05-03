@@ -416,10 +416,9 @@ h4{
 
 
 #left{
-    height:1000px;
+    height:2500px;
     width:25%;
-    border:1px solid black;
-}
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;}
 #right{
     height:auto;
     width:70%;
@@ -428,9 +427,41 @@ h4{
 #sort{
     height: 40px;
     width:90%;
-    border:1px solid grey;
+    /* border:1px solid  rgb(176, 168, 168); */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 5px;
     margin:auto;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#left>p{
+    /* color:black; */
+    margin-left: 15px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    /* font-weight: 600; */
     font-size: 20px;
+    line-height: 20px;
+    font-family: "Mier demi";
+}
+#left>hr{
+    width:90%;
+    margin:auto;
+    color:rgba(27, 31, 35, 0.15)
+}
+.aeiou{
+    height:40px;
+    width:90%;
+    margin:auto;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.aeiou>p{
+    font-size: 20px;
+    margin-top: 5px;
 }
 

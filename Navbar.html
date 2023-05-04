@@ -358,3 +358,18 @@
 
 </body>
 </html>
+<script src="data.js">
+    let right=document.querySelector("#right");
+    data.map(function(elem){
+        let div=document.createElement("div");
+        let img=document.createElement("img");
+        let p1=document.createElement("p");
+        let price=document.createElement("p");
+        let info=document.createElement("p");
+        let rating=document.createElement("button");
+
+        div.append(img,p1,price,ingo,rating);
+        right.append(div);
+
+    })
+</script>

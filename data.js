@@ -152,5 +152,75 @@ var data=[
         price:222,
         info:"Free Delivery",
         Rating:4.0
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/79788497/u7lzr_400.webp",
+        name:"Designer Bedsheet",
+        price:250,
+        info:"Free Delivery",
+        Rating:3.7
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/5482117/hjcau_400.webp",
+        name:"Elite Bedsheet",
+        price:416,
+        info:"Free Delivery",
+        Rating:4.1
+     },
+     {
+        avatar:"https://images.meesho.com/images/products/274877153/aeqhs_400.webp",
+        name:"Gorgeous Doormats",
+        price:192,
+        info:"Free Delivery",
+        Rating:4.0
+     },
+    {
+        avatar:"https://images.meesho.com/images/products/16014321/cd9ea_400.webp",
+        name:"Colorful Fridge Mats",
+        price:195,
+        info:"Free Delivery",
+        Rating:3.7
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/275907352/yzvbg_400.webp",
+        name:"GraceFul Curtains",
+        price:889,
+        info:"Free Delivery",
+        Rating:4.0
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/215069498/tqdux_400.webp",
+        name:"Elegant Curtains",
+        price:639,
+        info:"Free Delivery",
+        Rating:4.3
     }
 ]
+
+console.log(data);
+    let right=document.querySelector("#right");
+    data.map(function(elem){
+        
+        let div=document.createElement("div");
+        div.setAttribute("id","innerRight");
+
+        let img=document.createElement("img");
+        img.src=elem.avatar;
+
+        let p1=document.createElement("p");
+        p1.innerText=elem.name;
+
+        let price=document.createElement("p");
+        price.innerText=elem.price;
+
+        let info=document.createElement("p");
+        info.innerText=elem.info;
+
+        let rating=document.createElement("button");
+        rating.innerText=elem.Rating
+
+        div.append(img,p1,price,info,rating);
+        
+        right.append(div);
+
+    })

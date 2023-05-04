@@ -461,12 +461,23 @@ h4{
     margin-top: 5px;
 }
 #right{
-    height:auto;
+    height:4000px;
     width:75%;
     border:1px solid red;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(auto,400px);
-    gap:10px
+    gap:10px;
 }
-
+#innerRight{
+    height:500px;
+    margin-top: none;
+    border:1px solid red;
+    display:block;
+    text-align: center;
+    margin-bottom: none;
+}
+#innerRight>img{
+    height:300px;
+    width:100%
+}

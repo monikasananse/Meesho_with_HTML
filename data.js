@@ -1,4 +1,4 @@
-let data=[
+var data=[
     {
         avatar:"https://images.meesho.com/images/products/17401521/rkfks_400.webp",
         name:"Modern Table Lamps",

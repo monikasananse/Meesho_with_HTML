@@ -172,7 +172,7 @@ var data=[
         name:"Gorgeous Doormats",
         price:192,
         info:"Free Delivery",
-        Rating:4.0
+        Rating:4.3
      },
     {
         avatar:"https://images.meesho.com/images/products/16014321/cd9ea_400.webp",
@@ -186,7 +186,7 @@ var data=[
         name:"GraceFul Curtains",
         price:889,
         info:"Free Delivery",
-        Rating:4.0
+        Rating:4.3
     },
     {
         avatar:"https://images.meesho.com/images/products/215069498/tqdux_400.webp",
@@ -194,6 +194,90 @@ var data=[
         price:639,
         info:"Free Delivery",
         Rating:4.3
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/205009794/bhtdf_400.webp",
+        name:"Proffesional Lipstick",
+        price:135,
+        info:"Free Delivery",
+        Rating:3.7
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/74294494/l8psn_400.webp",
+        name:"Fancy Face Makeup combo",
+        price:171,
+        info:"Free Delivery",
+        Rating:3.8
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/2866288/jkznc_400.webp",
+        name:"Femiss Dry Feel Sanitizing Pad",
+        price:85,
+        info:"Free Delivery",
+        Rating:3.8
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/120830523/e4bng_400.webp",
+        name:"Twinkling Beautiful Jewellery",
+        price:196,
+        info:"Free Delivery",
+        Rating:3.8
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/194435695/suafe_400.webp",
+        name:"Princess Elegant Jewellery",
+        price:103,
+        info:"Free Delivery",
+        Rating:3.6
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/3885367/1_400.webp",
+        name:"Ladies Unique Flower Gajra",
+        price:178,
+        info:"Free Delivery",
+        Rating:3.8
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/5607307/1_400.webp",
+        name:"Diva women Hair",
+        price:229,
+        info:"Free Delivery",
+        Rating:3.9
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/188266593/32vws_400.webp",
+        name:"Voguis Fashionable Women Bag",
+        price:177,
+        info:"Free Delivery",
+        Rating:3.8
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/91669824/ugofm_400.webp",
+        name:"Elegant Versatile Bag",
+        price:234,
+        info:"Free Delivery",
+        Rating:4.2
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/158971077/76c4c_400.webp",
+        name:"modern WOmen Flats",
+        price:220,
+        info:"Free Delivery",
+        Rating:4.2
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/145430072/omddu_400.webp",
+        name:"WOnderful Belies",
+        price:265,
+        info:"Free Delivery",
+        Rating:4.1
+    },
+    {
+        avatar:"https://images.meesho.com/images/products/102690753/bsn5p_400.webp",
+        name:"Attractive Belies",
+        price:423,
+        info:"Free Delivery",
+        Rating:3.7
     }
 ]
 
@@ -210,14 +294,18 @@ console.log(data);
         let p1=document.createElement("p");
         p1.innerText=elem.name;
 
-        let price=document.createElement("p");
-        price.innerText=elem.price;
+        let price=document.createElement("h5");
+        price.innerText=" ₹ "+elem.price;
 
-        let info=document.createElement("p");
+        let info=document.createElement("h6");
         info.innerText=elem.info;
+        // div.setAttribute("id","info");
+
 
         let rating=document.createElement("button");
-        rating.innerText=elem.Rating
+        rating.innerText=elem.Rating;
+        
+
 
         div.append(img,p1,price,info,rating);
         

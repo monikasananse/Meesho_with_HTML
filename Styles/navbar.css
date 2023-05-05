@@ -408,7 +408,7 @@ h4{
 #products{
     height:5000px;
     width:100%;
-    border:1px solid red;
+    /* border:1px solid red; */
     display: flex;
     justify-content: space-around;
     margin-top:50px;
@@ -461,23 +461,60 @@ h4{
     margin-top: 5px;
 }
 #right{
-    height:4000px;
+    height:5000px;
     width:75%;
-    border:1px solid red;
+    /* border:1px solid red; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(auto,400px);
     gap:10px;
 }
 #innerRight{
-    height:500px;
+    height:450px;
     margin-top: none;
-    border:1px solid red;
+    /* border:1px solid red; */
     display:block;
-    text-align: center;
-    margin-bottom: none;
+    text-align: left;
+    /* margin-bottom: none; */
+    line-height: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 #innerRight>img{
     height:300px;
     width:100%
+}
+#innerRight>p{
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+    font-family: "Mier book";
+    /* margin-bottom: 2px; */
+}
+#innerRight>h5{
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    
+    line-height: none;
+    font-family: "Mier bold"
+}
+#innerRight>h6{
+    color:#83857d;
+    font-size: 16px;
+    margin-top: none;
+    margin-bottom: 15px;
+}
+
+#innerRight>button{
+    height:30px;
+    width:60px;
+    background-color:#038D63 ;
+    color: white;
+    border-radius: 20%;
+    border:none;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 0px;
+
 }

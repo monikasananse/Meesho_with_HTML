@@ -506,7 +506,7 @@ h4{
     margin-bottom: 15px;
 }
 
-#innerRight>button{
+/* #innerRight>button{
     height:30px;
     width:60px;
     background-color:#038D63 ;
@@ -517,4 +517,17 @@ h4{
     margin-left: 10px;
     margin-top: 0px;
 
+} */
+#sdiv{
+    height:30px;
+    width:50px;
+    background-color:#038D63 ;
+    color: white;
+    border-radius: 20%;
+    border:none;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
 }

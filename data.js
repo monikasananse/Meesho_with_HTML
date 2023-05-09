@@ -123,7 +123,7 @@ var data=[
         name:"Arzonal Trendy sunglasses",
         price:293,
         info:"Free Delivery",
-        Rating:4.0
+        Rating:4.2
     },
     {
         avatar:"https://images.meesho.com/images/products/31112037/76257_400.webp",
@@ -151,7 +151,7 @@ var data=[
         name:"Elegant Baby Blanket",
         price:222,
         info:"Free Delivery",
-        Rating:4.0
+        Rating:4.3
     },
     {
         avatar:"https://images.meesho.com/images/products/79788497/u7lzr_400.webp",
@@ -301,13 +301,18 @@ console.log(data);
         info.innerText=elem.info;
         // div.setAttribute("id","info");
 
+        let Sdiv=document.createElement("div");
+        Sdiv.setAttribute("id","sdiv");
 
-        let rating=document.createElement("button");
+        let rating=document.createElement("p");
         rating.innerText=elem.Rating;
+        let str=document.createElement("p");
+        str.innerText="*";
+
+        Sdiv.append(rating,str);
         
 
-
-        div.append(img,p1,price,info,rating);
+        div.append(img,p1,price,info,Sdiv);
         
         right.append(div);
 

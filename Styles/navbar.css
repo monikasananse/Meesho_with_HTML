@@ -531,3 +531,32 @@ h4{
     display: flex;
     justify-content: space-around;
 }
+#footer{
+    height:500px;
+    width:100%;
+    border:1px solid black;
+    background-color:  #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+}
+#non-stop-meesho{
+    height:300px;
+    width:25%;
+    border:1px solid red;
+    margin:50px 0 0 0;
+}
+#non-stop-meesho>p{
+    color:#604833;
+    font-size: 32px;
+    font-family: "Mier bold";
+    font-weight: 700;
+}
+#non-stop-meesho>p+p{
+    color:#666666;
+    font-size: 20px;
+    font-family: "Mier book";
+    line-height: 24px;
+    /* font-family: "Mier book"; */
+    letter-spacing: 0.5px;
+
+}

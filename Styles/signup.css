@@ -76,7 +76,7 @@
 #vertical{
     height:800px;
     width:30%;
-    border:1px solid red;
+    /* border:1px solid red; */
     margin:auto;
     margin-top: 40px;
     /* border-radius: 10px; */
@@ -110,4 +110,30 @@
     height:100px;
     width:70%;
     margin:auto;
+}
+#name{
+    height:30px;
+    width:70%;
+    border-bottom: 1px solid grey;
+    border:none;
+    color:#f43397;
+}
+#number{
+    height:30px;
+    width:70%;
+    border-bottom: 1px solid grey;
+    border:none;
+    margin-top: 20px;
+    color:#f43397;
+}
+#submit{
+    margin:auto;
+    margin-top: 20px;
+    height:50px;
+    width:80%;
+    background-color: #f43397;
+    color:white;
+    border:none;
+    font-size: 18px;
+    border-radius: 5px;
 }

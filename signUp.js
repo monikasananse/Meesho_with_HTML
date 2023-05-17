@@ -13,7 +13,8 @@ function submitFun(event){
         phone:phone
     }
     arr.push(obj);
-    console.log(arr);
+    //console.log(arr);
     localStorage.setItem("meeshoData",JSON.stringify(arr));
+    window.location.href="Login.html";
 
 }
